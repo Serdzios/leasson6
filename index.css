@@ -177,9 +177,9 @@ header .d-flex {
 
 
 .items {
+    background: gainsboro;
     margin: 0 auto;
     height: 2px;
-    background: #00000017;
     width: 80px;
 }
 
