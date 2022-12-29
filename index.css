@@ -177,10 +177,9 @@ header .d-flex {
 
 
 .items {
-    margin: 0 auto;
-    text-align: center;
+    padding-bottom: 43px;
     width: 80px;
-    height: 2px;
+    margin: 0 auto;
 }
 
 .section3__cards {
