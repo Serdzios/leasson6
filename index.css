@@ -142,7 +142,8 @@ header .d-flex {
 }
 
 .button__touch:hover {
-    background-color: #7EC4BD;
+    background: peachpuff;
+    box-shadow: -1px 5px 24px 0 rgba(255, 221, 0, 1);
 }
 
 .button__touch:active {
@@ -155,7 +156,6 @@ header .d-flex {
 /*Начало 3 страницы*/
 .section-3 {
     padding: 79px 0 74px 0;
-
     text-align: center;
 }
 
@@ -167,9 +167,8 @@ header .d-flex {
     line-height: 36px;
     text-transform: uppercase;
     color: #333333;
-
-
 }
+
 
 .border__item {
     padding: 28px 0 0 0;
@@ -191,6 +190,7 @@ header .d-flex {
     height: 100%;
     display: inline-block;
 }
+
 
 .section3__cards p {
     padding: 20px 0 0 0;
@@ -220,44 +220,81 @@ header .d-flex {
 /*Конец 3 страницы*/
 
 /*Начало 4 страницы*/
-/*.section-4{*/
-/*    padding: 79px 0 89px 0;*/
-/*    background: #F5F5F5;*/
-/*    height: 1469px;*/
+.section-4 {
+    text-align: center;
+    padding: 79px 250px 89px 250px;
+    background: #F5F5F5;
+    height: 1570px;
 
-/*}*/
-/*.section4__title h1{*/
-/*    font-family: 'Montserrat';*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    font-size: 23px;*/
-/*    line-height: 36px;*/
-/*    text-align: center;*/
-/*    text-transform: uppercase;*/
-/*    color: #333333;*/
-/*}*/
-/*.section4__text{*/
-/*    width: 300px;*/
-/*    height: 84px;*/
-/*    background: #FFFFFF;*/
-/*    text-align: center;*/
-/*    padding: 19px 0 21px 0;*/
+}
 
-/*}*/
+.section4__title h1 {
+    padding: 19px 0 28px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.section4__item {
+    padding: 0 0 43px 0;
+}
+
+.item {
+
+    background: gainsboro;
+    margin: 0 auto;
+    height: 2px;
+    width: 80px;
+}
+
+.section4__text {
+    padding: 19px 0 45px 0;
+    height: 84px;
+    background: #FFFFFF;
+    text-align: center;
 
 
-/*.section4__card{*/
-/*display: inline-block;*/
+}
+
+.section4__text h3 {
+    padding: 0 0 4px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.section4__text p {
+    padding: 0 0 21px 0;
+    font-family: 'Vollkorn', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 
 
-/*}*/
-/*.section4__cards{*/
-/*    padding: 20px 250px 173px 250px;*/
-/*    display: inline-block;*/
-/*    margin: 20px;*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*}*/
+    text-align: center;
+
+    color: #333333;
+}
+
+.section4__cards {
+    display: inline-block;
+    margin: 20px;
+}
+
+.section4__cards:hover {
+    box-shadow: 33px 12px 25px 0 rgba(51, 3, 51, 1);
+}
 
 /*Начало 5 страницы*/
 .text h3 {
@@ -279,10 +316,12 @@ header .d-flex {
 }
 
 .titles {
+
     padding: 79px 0 0 0;
 }
 
 .titles h1 {
+
     font-weight: 400;
     font-size: 23px;
     line-height: 36px;
@@ -305,7 +344,10 @@ header .d-flex {
     margin: 6px;
     height: 100%;
     display: inline-block;
+}
 
+.card:hover {
+    box-shadow: -13px 4px 25px 0 rgba(51, 3, 51, 1);
 }
 
 .text {
@@ -316,9 +358,11 @@ header .d-flex {
 .wrapper {
     display: inline-flex;
 
+
 }
 
 .wrapper__icon1 {
+
     margin: 6px;
     width: 14px;
     height: 14px;
