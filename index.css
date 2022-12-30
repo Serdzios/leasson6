@@ -293,7 +293,7 @@ header .d-flex {
 }
 
 .items__svg {
-    padding-bottom: 43px;
+    padding: 28px 0 43px 0;
     width: 80px;
     margin: 0 auto;
 }
