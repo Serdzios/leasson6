@@ -28,6 +28,10 @@ img {
     padding: 4px 17px;
 }
 
+.nav-links a:hover {
+    text-shadow: 2px 2px 3px rgba(0, 102, 7, 1);
+}
+
 .logo-img {
     width: 155px;
     height: 70px;
@@ -143,7 +147,10 @@ header .d-flex {
 
 .button__touch:hover {
     background: peachpuff;
-    box-shadow: -1px 5px 24px 0 rgba(255, 221, 0, 1);
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(0, 0, 0, 1);
+    box-shadow: 2px 3px 13px 0 rgba(0, 0, 0, 1);
+
 }
 
 .button__touch:active {
@@ -160,6 +167,7 @@ header .d-flex {
 }
 
 .section-3 h1 {
+
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -167,6 +175,10 @@ header .d-flex {
     line-height: 36px;
     text-transform: uppercase;
     color: #333333;
+}
+
+.section-3 h1:hover {
+    text-shadow: 2px 2px 3px black;
 }
 
 
@@ -190,7 +202,6 @@ header .d-flex {
     height: 100%;
     display: inline-block;
 }
-
 
 .section3__cards p {
     padding: 20px 0 0 0;
@@ -217,6 +228,12 @@ header .d-flex {
     color: #333333;
 }
 
+.section3__cards img:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 10px 10px 9px 0 rgba(0, 179, 155, 1);
+}
+
 /*Конец 3 страницы*/
 
 /*Начало 4 страницы*/
@@ -238,6 +255,10 @@ header .d-flex {
     text-align: center;
     text-transform: uppercase;
     color: #333333;
+}
+
+.section4__title h1:hover {
+    text-shadow: 2px 2px 3px rgba(0, 102, 7, 1);
 }
 
 .section4__item {
@@ -293,7 +314,11 @@ header .d-flex {
 }
 
 .section4__cards:hover {
-    box-shadow: 33px 12px 25px 0 rgba(51, 3, 51, 1);
+    -webkit-box-shadow: 12px 6px 13px 0 rgba(84, 1, 84, 1);
+    -moz-box-shadow: 12px 6px 13px 0 rgba(84, 1, 84, 1);
+    box-shadow: 12px 6px 13px 0 rgba(84, 1, 84, 1);
+
+
 }
 
 /*Начало 5 страницы*/
@@ -305,6 +330,7 @@ header .d-flex {
     line-height: 20px;
     text-transform: uppercase;
 }
+
 
 .text p {
     text-align: center;
@@ -327,8 +353,11 @@ header .d-flex {
     line-height: 36px;
     text-align: center;
     text-transform: uppercase;
-
     color: #333333;
+}
+
+.titles h1:hover {
+    text-shadow: 2px 2px 3px rgba(102, 0, 102, 1);
 }
 
 .items__svg {
@@ -347,7 +376,9 @@ header .d-flex {
 }
 
 .card:hover {
-    box-shadow: -13px 4px 25px 0 rgba(51, 3, 51, 1);
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
 }
 
 .text {
@@ -419,5 +450,48 @@ header .d-flex {
     background: #F5F5F5;
 
 }
+
+.wrapper__icon1:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
+.wrapper__icon2:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
+.wrapper__icon3:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
+.wrapper__icon4:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
+.wrapper__icon5:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
+.wrapper__icon6:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
+.wrapper__icon7:hover {
+    -webkit-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    -moz-box-shadow: 2px 3px 13px 0 rgba(101, 178, 214, 1);
+    box-shadow: 2px 3px 13px 0 rgba(5, 92, 0, 1);
+}
+
 
 /*Конец 5 страницы*/
