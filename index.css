@@ -238,10 +238,12 @@ header .d-flex {
 
 /*Начало 4 страницы*/
 .section-4 {
+
     text-align: center;
     padding: 79px 250px 89px 250px;
     background: #F5F5F5;
     height: 1570px;
+
 
 }
 
@@ -266,7 +268,6 @@ header .d-flex {
 }
 
 .item {
-
     background: gainsboro;
     margin: 0 auto;
     height: 2px;
@@ -301,16 +302,20 @@ header .d-flex {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-
-
     text-align: center;
-
     color: #333333;
 }
 
 .section4__cards {
     display: inline-block;
-    margin: 20px;
+    text-align: center;
+     float: contour;
+    width: 328px;
+   margin-right: 20px;
+    margin-bottom: 20px;
+
+
+
 }
 
 .section4__cards:hover {
@@ -495,94 +500,4 @@ header .d-flex {
 
 
 /*Конец 5 страницы*/
-/*Начало 6 страницы*/
-.section-6 {
-    height: 511px;
-    background: #F5F5F5;
-}
 
-.section6__reactle {
-
-    width: 62px;
-    height: 62px;
-
-
-}
-
-.section6__box1 {
-    padding: 196px 328px 216px 450px;
-}
-
-.section6__p {
-    width: 338px;
-    height: 99px;
-    font-family: 'Vollkorn', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 33px;
-    text-align: center;
-    color: #333333;
-
-}
-
-.section6__img {
-    width: 64px;
-    height: 64px;
-
-}
-
-/*Конец 6 страницы*/
-
-/*Начало 7 страницы*/
-.section-7 {
-    background: #7EC4BD;
-    height: 517px;
-    padding: 79px 0 0 0;
-
-}
-
-.section7__title h1 {
-    padding: 0 0 28px 0;
-    width: 245px;
-    height: 36px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.section7__border {
-
-    padding: 28px 0 0 0;
-    width: 80px;
-    margin: 0 auto;
-}
-
-.section7__cards {
-    padding: 56px 130px;
-    justify-content: center;
-    text-align: center;
-    margin: 50px;
-    display: inline-block;
-}
-
-.section7__cards img {
-    width: 44px;
-    height: 65px;
-
-}
-
-.section7__text img {
-    width: 14px;
-    height: 14px;
-    display: inline-flex;
-}
-
-.section7__img1 {
-    padding: 0 250px 0 0;
-}
